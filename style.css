@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #440267;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  color: white;
+  background-color: #440267;
+}
+.swiper {
+  width: 80%;
+  height: fit-content;
+  border-radius: 14px;
+  padding: 20px;
+} 
+.swiper-slide {
+  width: 100%;
+  height: 600px;
+}
+.swiper-slide .our-team {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  color: #440267;
+  display: flex;
+  flex-wrap: wrap;
+}
+.swiper-slide .our-team .one {
+  width: 300px;
+}
+.swiper-button-prev, 
+.swiper-button-next {
+  color: #fff;
+}
